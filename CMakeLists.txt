@@ -1,6 +1,6 @@
 ﻿cmake_minimum_required(VERSION 3.27)     # Xayah Revise                                                        #指定CMake的最低版本为3.10。若版本过低，请自行升级CMake
 
-project(PhysIKA LANGUAGES CXX C CUDA)     # Xayah Revise                                                         #指定本项目的编译语言为C++、CUDA
+project(HinaPE-PhysIKA LANGUAGES CXX C CUDA)     # Xayah Revise                                                         #指定本项目的编译语言为C++、CUDA
 enable_language(CUDA) # Xayah Revise
 
 find_package(CUDAToolkit REQUIRED) # Xayah Revise
@@ -89,4 +89,4 @@ endif()
 
 add_subdirectory(Source)
 
-
+add_subdirectory(HinaPE-hdk)
